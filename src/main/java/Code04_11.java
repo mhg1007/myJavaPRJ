@@ -11,7 +11,7 @@ public class Code04_11 {
         var2=s.nextLine();
 
         diff=var1.length()-var2.length();
-        System.out.println("두 문자열 길이의 차이는"+diff+"입니다.");
+        System.out.println("두 문자열 길이의 차이는 "+diff+"입니다.");
         s.close();
     }
 }
