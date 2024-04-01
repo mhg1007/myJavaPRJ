@@ -9,5 +9,7 @@ public class Code05_02 {
             System.out.print("100보다 ");
             System.out.print("작습니다.");
         }
+
+        s.close();
     }
 }
