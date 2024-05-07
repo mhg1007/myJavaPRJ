@@ -1,4 +1,4 @@
-public class Rabbit {
+public class Rabbit {   //Code07
         String shape;
         int xPos;
         int yPos;
