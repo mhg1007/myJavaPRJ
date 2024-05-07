@@ -1,15 +1,3 @@
-class Rabbit{
-    String shape;
-    int xPos;
-    int yPos;
-    void setPosition(int x, int y){
-        this.xPos=x;
-        this.yPos=y;
-
-        System.out.println("xPos : "+this.xPos+" / yPos : "+this.yPos);
-    }
-}
-
 public class Code07_06 {
     public static void main(String[] args) {
         Rabbit rb1=new Rabbit();
