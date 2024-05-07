@@ -1,7 +1,7 @@
 public class Rabbit {   //Code07
         String shape;
-        int xPos;
-        int yPos;
+        private int xPos;
+        private int yPos;
         Rabbit(){
             shape="토끼";
         }
