@@ -2,9 +2,11 @@ public class Rabbit {
         String shape;
         int xPos;
         int yPos;
-
         Rabbit(){
             shape="토끼";
+        }
+        Rabbit(String shape){
+            this.shape=shape;
         }
         void setPosition(int xPos, int yPos){
             this.xPos=xPos;
