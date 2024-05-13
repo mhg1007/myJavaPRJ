@@ -21,10 +21,27 @@ class HouseRabbit extends Rabbit2{
     void eatFeed(){
         System.out.println("집토끼가 사료를 먹습니다.");
     }
+    @Override
+    void move(int x,int y){
+        super.move(x,y);
+        if(this.xPos>100)
+            this.xPos=100;
+        if(this.yPos>100)
+            this.yPos=100;
+    }
 }
 class MountainRabbit extends Rabbit2{
     String mountain;
     void eatWildgrass(){
         System.out.println("산토끼가 풀을 먹습니다.");
+    }
+
+    @Override
+    void move(int x, int y) {
+        System.out.println("산토끼는 자유롭게 돌아다닙니다.");
+        if(this.xPos<=500)
+            this.xPos=1000;
+        if(this.yPos<=500)
+            this.yPos=1000;
     }
 }
