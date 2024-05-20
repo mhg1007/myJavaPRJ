@@ -8,12 +8,12 @@ abstract class Rabbit88{
     }
     abstract void sleep();
 }
-class HouseRabbit88 extends Rabbit87{
+class HouseRabbit88 extends Rabbit88{
     void sleep(){
         System.out.println("집토끼가 우리에서 잠자고 있습니다.");
     }
 }
-class MountainRabbit88 extends Rabbit87{
+class MountainRabbit88 extends Rabbit88{
     void sleep(){
         System.out.println("산토끼가 굴속에서 잠자고 있습니다.");
     }
