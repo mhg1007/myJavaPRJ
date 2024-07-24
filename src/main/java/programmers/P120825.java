@@ -1,10 +1,10 @@
 package programmers;
 
-public class P120812 {  //문자 반복 출력하기
+public class P120825 {  //문자 반복 출력하기
    public String solution(String my_string, int n) {
         String answer = "";
         for(int i=0; i<my_string.length(); i++){
-            answer+=String.valueOf(my_string.charAt(i)).repeat(n);
+//            answer+=String.valueOf(my_string.charAt(i)).repeat(n);    String.repeat메서드-java11이상지원
         }
         return answer;
     }
