@@ -21,7 +21,7 @@ public class P181851 {  //전국 대회 선발 고사
   
     public static void main(String[] args) {
       int[] rank={3, 7, 2, 5, 4, 6, 1};
-      boolean attendance={false, true, true, true, true, false, false};
+      boolean[] attendance={false, true, true, true, true, false, false};
       int result=20403;
     }
 }
