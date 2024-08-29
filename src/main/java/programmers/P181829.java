@@ -1,6 +1,6 @@
 package programmers;
 
-public class P181851 {  //이차원 배열 대각선 순회하기
+public class P181829 {  //이차원 배열 대각선 순회하기
    public int solution(int[][] board, int k) {
         int answer = 0;
         for(int i=0; i<board.length; i++){

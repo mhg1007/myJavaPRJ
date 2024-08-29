@@ -1,6 +1,6 @@
 package programmers;
 
-public class P181851 {  //정사각형으로 만들기
+public class P181830 {  //정사각형으로 만들기
    public int[][] solution(int[][] arr) {
         int len=Math.max(arr.length, arr[0].length);
         int[][] answer = new int[len][len];
