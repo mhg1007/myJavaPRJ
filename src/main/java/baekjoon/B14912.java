@@ -11,7 +11,7 @@ public class B14912 {
         for (int i = 1; i <=n ; i++) {
             String str=String.valueOf(i);
             for (int j = 0; j < str.length(); j++) {
-                if(Integer.parseInt(String.valueOf(str.charAt(j)))==d){
+                if(Character.getNumericValue(str.charAt(j))==d){
                     count++;
                 }
             }
