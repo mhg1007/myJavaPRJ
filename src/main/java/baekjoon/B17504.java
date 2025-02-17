@@ -13,10 +13,9 @@ public class B17504 {
         long[] arr2=new long[2];
         arr2[0]=1;
         arr2[1]=arr[N-1];
-        long tmp;
         for (int i = N-2; i >=0 ; i--) {
             arr2[0]=arr2[0]+(arr[i]*arr2[1]);
-            tmp=arr2[0];
+            long tmp=arr2[0];
             arr2[0]=arr2[1];
             arr2[1]=tmp;
         }
