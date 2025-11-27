@@ -1,20 +1,19 @@
 package baekjoon;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class B10987 {
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
-        String str=s.nextLine();
-        int count=0;
-        char[] arr={'a','e','i','o','u'};
-        for (int i = 0; i < str.length(); i++) {
-            for (char c : arr) {
-                if (str.charAt(i) == c) {
-                    count++;
-                }
+        String a =s.next();
+        int cnt =0;
+        List<Character> l=List.of('a','e','i','o','u');
+        for (int i = 0; i < a.length(); i++) {
+            if (l.contains(a.charAt(i))) {
+                cnt++;
             }
         }
-        System.out.print(count);
+        System.out.print(cnt);
     }
 }
