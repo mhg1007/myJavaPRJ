@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class B11367 {
     public static String scr(int n){
-        String ans="";
+        String ans;
         if(n>96){
             ans="A+";
         }
@@ -37,13 +37,10 @@ public class B11367 {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
-        String fk=s.nextLine();
+        s.nextLine();
         for (int i = 0; i < n; i++) {
             String hb=s.nextLine();
-            StringBuilder sb=new StringBuilder();
-            sb.append(hb,0,hb.indexOf(" ")).append(" ");
-            sb.append(scr(Integer.parseInt(hb.substring(hb.indexOf(" ")+1))));
-            System.out.println(sb);
+            System.out.println(hb.substring(0,hb.indexOf(" "))+" "+scr(Integer.parseInt(hb.substring(hb.indexOf(" ")+1))));
         }
     }
 }
