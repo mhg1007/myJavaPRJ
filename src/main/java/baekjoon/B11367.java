@@ -4,35 +4,33 @@ import java.util.Scanner;
 
 public class B11367 {
     public static String scr(int n){
-        String ans;
         if(n>96){
-            ans="A+";
+            return "A+";
         }
         else if(n>89){
-            ans="A";
+            return "A";
         }
         else if(n>86){
-            ans="B+";
+            return "B+";
         }
         else if(n>79){
-            ans="B";
+            return "B";
         }
         else if(n>76){
-            ans="C+";
+            return "C+";
         }
         else if(n>69){
-            ans="C";
+            return "C";
         }
         else if(n>66){
-            ans="D+";
+            return "D+";
         }
         else if(n>59){
-            ans="D";
+            return "D";
         }
         else{
-            ans="F";
+            return "F";
         }
-        return ans;
     }
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
