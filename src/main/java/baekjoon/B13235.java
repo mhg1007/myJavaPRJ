@@ -8,6 +8,6 @@ public class B13235 {
         String str=s.next();
         StringBuilder sb=new StringBuilder();
         sb.append(str).reverse();
-        System.out.print(str.contentEquals(sb)?"true":"false");
+        System.out.print(str.contentEquals(sb));
     }
 }
