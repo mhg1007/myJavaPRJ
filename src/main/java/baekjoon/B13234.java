@@ -8,22 +8,12 @@ public class B13234 {
         String a=s.next();
         String nr=s.next();
         String b=s.next();
-        String c="";
+        boolean c=true;
         if(nr.equals("AND")){
-            if(a.equals("true")&&b.equals("true")){
-                c="true";
-            }
-            else{
-                c="false";
-            }
+            c=a.equals("true")&&b.equals("true");
         }
         else if(nr.equals("OR")){
-            if(a.equals("true")||b.equals("true")){
-                c="true";
-            }
-            else{
-                c="false";
-            }
+            c=a.equals("true")||b.equals("true");
         }
         System.out.print(c);
     }
